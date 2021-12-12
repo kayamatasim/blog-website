@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Lobster&family=Open+Sans+Condensed:wght@300&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+.color{
+    background-color: rgb(124, 2, 140);
+    border: solid rgb(2, 0, 0) 5px;
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+   
+}
+
+.purple{
+    color:rgb(44, 0, 38);
+    font-family: 'Lobster', cursive;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+    width:100%;
+}
+.navbar-brand{
+    color:purple;
+    font-size: 2rem !important;
+    
+}
+.dummy{
+    height:80px;
+}
+body{
+background: url('https://images.unsplash.com/photo-1512227947206-145a8974e7e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fGljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60');
+background-size: cover;
+background-attachment: fixed;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
