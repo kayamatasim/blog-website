@@ -15,7 +15,7 @@
    <nav class="nav d-flex justify-content-between">
        <div class="navbar-brand purple">Coolstuff</div>
      <form action="" class="d-flex">
-       <button class="btn color m-2 mx-5" href="#publish">publish</button>
+       <a class="btn color m-2 mx-5" type="button" href="#publish">publish</a>
         
      </form>
    </nav>
@@ -40,7 +40,7 @@
        <div class="row">
            <div class="col-sm-8">
                <div class="blogs">
-                   <div class="blog">
+                   <!-- <div class="blog">
                        <h1 class="blog-heading purple">bolg heading</h1>
                        <p class="blog-text">
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rem quidem m
@@ -48,8 +48,8 @@
                            nventore. Vero quam corrupti tenetur dolorum natus. Excepturi sapiente id obcaecati eos deleniti.
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam offi
                            ciis totam debitis sapiente, ipsa ipsum labore enim ips
-                           <span id="dots">....</span>
-                           <span id="more">  am harum eaque alias laboriosam, placeat dignissimos, rem ut doloribus facere suscipit?
+                           <span class="dots" id="dots">....</span>
+                           <span class="more">  am harum eaque alias laboriosam, placeat dignissimos, rem ut doloribus facere suscipit?
                             Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam atque est
                             , nulla incidunt saepe enim officiis, reiciendis sit, corrupti fuga repellat ipsa comm
                             odi modi libero minus quasi sequi? Corporis!Loremlorem
@@ -60,29 +60,38 @@
                             reprehenderit voluptates eum esse optio obcaecati repudiandae magni accusamus consequatur eveniet! Omnis, nulla? </span>
                          
                        </p>
-                       <button class="btn btn-sm color" id="myBtn" onclick="myFunction()">read less</button>
-                   </div>
+                       <button class="btn btn-sm color myBtn">read less</button>
+                   </div> -->
                </div>
            </div>
        </div>
    </div>
-
-
-   <div class="container-fluid my-5 pb-2 pt-0 color" id="publish">
+<div class="container-fluid my-5 pb-2 pt-0 color" id="publish">
        <hr>
        <div class="row d-flex justify-content-center">
            <div class="col-sm-4">
                <div class="flex p-5">
                 <h1 class="form-heading">publish your content here</h1>
-               </div>
+                <form action="">
+                    <div> <button type="submit" class="fog color">clear</button></div>
+                </div>
+             
+                </form>
              
            </div>
            <div class="col-sm-7">
+          <form action="">
             <h4>title</h4>
             <input type="text" class="form-control" placeholder="title" id="title">
-           
+                <h3>main content</h3>
+                <textarea name="" id="mainc" cols="6" rows="3" class="form-control" placeholder="main content"></textarea>
             <h4>content</h4>
-            <textarea name="less" id="" cols="15" rows="5" class="form-control" placeholder="content"></textarea>
+            <textarea name="less" id="content" cols="15" rows="5" class="form-control" placeholder="content"></textarea>
+          
+                <button type="submit"  class="btn color m-1 submit">Submit</button>
+            
+          </form>
+           
         
            </div>
          
